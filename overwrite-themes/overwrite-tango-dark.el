@@ -1,7 +1,6 @@
 ;; overwrite-tango-dark
 
-;; ウィンドウの透過度を変更する
-
+;; Change the rate of permeability of the window
 (if window-system
     (progn
       (set-background-color "Black")
