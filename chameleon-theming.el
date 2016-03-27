@@ -7,7 +7,10 @@
   :prefix "chameleon-"
   )
 
-(defcustom chameleon-load-overwrite-themes-directory "overwrite-themes/"
+(defcustom chameleon-load-overwrite-themes-directory
+  (cocat
+   (file-name-directory (find-library-name "chameleon-theming"))
+   "overwrite-themes")
   "Default directory of overwrite theme files."
   :type 'directory
   :group 'chameleon-theming)
