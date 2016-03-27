@@ -1,0 +1,5 @@
+# chameleon-theming gitignore
+
+# Keep directory structure
+overwrite-themes/*
+!.gitkeep
