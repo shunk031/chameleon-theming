@@ -21,7 +21,8 @@
 
 (defcustom chameleon-initial-alpha-value 100
   "Initial value of alpha parameter."
-  :type 'number)
+  :type 'number
+  :group 'chameleon-theming)
 
 (defun chameleon-set-initial-alpha-value ()
   "Set initial value of alpha parameter for the current frame"
