@@ -1,5 +1,8 @@
 # chameleon-theming gitignore
 
+# ignore file
+README.html
+
 # Keep directory structure
 overwrite-themes/*
 !.gitkeep
