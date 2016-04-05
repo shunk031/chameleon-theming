@@ -25,6 +25,8 @@ You have to specify your emacs theme and bind some keys to some of those command
 
 By setting the keybindings and themes, you can easily switch between the themes.
 
+[[https://raw.githubusercontent.com/shunk031/chameleon-theming/master/demo.gif]]
+
 ### Overwrite themes
 
 You can overwrite themes by loading the `overwrite-` prefix files. 
